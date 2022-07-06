@@ -34,3 +34,13 @@ stages:
       - model_params.l1_ratio
     outs:
       - artifacts/model/elasticnet.model
+  
+  eval_model:
+    cmd: python src/stage_04_evaluate.py
+    deps:
+      - src/stage_04_evaluate.py
+      - src/utils/all_utils.py
+      - config/config.yaml
+      - params.yaml
+    outs:
+      - artifacts/results.json

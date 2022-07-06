@@ -12,3 +12,5 @@ artifacts :
 
   model_folder_name: model
   model_file_name: elasticnet.model
+
+  eval_file_name: results.json
