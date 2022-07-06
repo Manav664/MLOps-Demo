@@ -4,3 +4,6 @@ artifacts :
   artifact_folder: artifacts
   raw_data_folder: raw_data
   raw_data_name: raw_data.csv
+  split_data_dir: splitted_data
+  train_data_name: train.csv
+  test_data_name: test.csv
