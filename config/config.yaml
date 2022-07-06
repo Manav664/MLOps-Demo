@@ -1,0 +1,6 @@
+data_source: "https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/winequality-red.csv"
+
+artifacts :
+  artifact_folder: artifacts
+  raw_data_folder: raw_data
+  raw_data_name: raw_data.csv
