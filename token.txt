@@ -2,4 +2,4 @@ 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
 
 https://github.com/Manav664/MLOps-Demo.git
 
-git remote add origin https://Manav664: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@github.com/Manav664/MLOps-Demo.git
+git remote add origin https://Manav664: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@github.com/Manav664/MLOps-Demo.git

@@ -29,6 +29,7 @@ stages:
       - src/utils/all_utils.py
       - config/config.yaml
       - params.yaml
+      - artifacts/splitted_data/train.csv
     params:
       - model_params.alpha
       - model_params.l1_ratio
@@ -42,5 +43,8 @@ stages:
       - src/utils/all_utils.py
       - config/config.yaml
       - params.yaml
+      - artifacts/splitted_data/test.csv
+      - artifacts/model/elasticnet.model
+
     outs:
       - artifacts/results.json
