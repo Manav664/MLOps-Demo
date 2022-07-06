@@ -1,3 +1,7 @@
 base:
   test_size: 0.3
   random_state: 43
+
+model_params:
+  alpha: 0.2
+  l1_ratio : 0.3

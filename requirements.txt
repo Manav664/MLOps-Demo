@@ -2,6 +2,7 @@ dvc
 pandas 
 scikit-learn
 sklearn
-
+joblib
+argparse
 #local packages 
 -e .
